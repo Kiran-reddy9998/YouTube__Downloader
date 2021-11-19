@@ -94,11 +94,6 @@ label_4.place(x=650, y=140)
 label_5 = Label(root, text='(Low Resolution)', bg='white', fg='black', font='arial 15 bold')
 label_5.place(x=650, y=190)
 
-label_6 = Label(root, text="\U0001F642" , bg="#FFCCFF", fg="black", font='arial 20 bold')
-label_6.place(x=210, y=196)
-
-label_7 = Label(root, text="Hello kirru", bg="#FFCCFF", fg="black", font='arial 15 bold')
-label_7.place(x=100, y=200)
 
 button_1 = Button(root, width=10, height=1, font='Helvetica 12 bold', text='Download HQ', command=download_video,
                   bg='blue', fg='white')
